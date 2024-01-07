@@ -1,0 +1,187 @@
+.text_area{
+    font-size: 1.3rem;
+    font-family: "Montserrat";
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.foto_estampado_custom_camiseta_hombre{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 30%;
+    top: 50%;
+    left: 50%;
+    opacity: 0.75;
+    transform: translateX(-50%) translateY(-60%);
+    object-fit: contain;
+
+}
+
+.foto_estampado_custom_camiseta_mujer{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    object-fit: contain;
+    height: 30%;
+    top: 53%;
+    left: 50.25%;
+    transform: translateX(-50%) translateY(-60%);
+    opacity: 0.7;
+
+}
+
+.jgj{
+    width: 100%;
+    height: 100%;
+}
+
+.colors_input{
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    width: 300px;
+    height: 50px;
+    z-index: 6;
+    background-color: red;
+}
+
+.foto_estampado_custom_sudadera_mujer{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    object-fit: contain;
+    height: 25%;
+    top: 46%;
+    left: 51.5%;
+    transform: translateX(-50%) translateY(-60%);
+    opacity: 0.75;
+}
+
+.foto_estampado_custom_sudadera_hombre{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    object-fit: contain;
+    height: 25%;
+    top: 48.5%;
+    left: 50.5%;
+    transform: translateX(-50%) translateY(-60%);
+    opacity: 0.6;
+}
+
+.pestañas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.inactive{
+    font-size: 2rem;
+    font-family: "Bebas Neue";
+    padding: 0.5rem;
+    border: none;
+    background: none;
+    border: 1px solid #7474742f;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.div_fijo{
+    width: 100%;
+}
+
+.div_fijo p{
+    font-size: 1.2rem;
+}
+
+.activeoption {
+    font-size: 2rem;
+    font-family: "Bebas Neue";
+    padding: 0.5rem;
+    border: none;
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 1rem 1rem 0 0;
+    transition: color 0.5s ease;
+}
+
+.generar{
+    width: 100%;
+    font-family: "Bebas Neue";
+    letter-spacing: 0.8rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 0.3rem 0.3rem ;
+    background:#131313;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s ease-out;
+}
+
+.generar:active{
+    background-color: rgb(14, 55, 71);
+  }
+
+  .foto_camisetas_color_sudaderas{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    top: -15px;
+    left: 0px;
+}
+
+.selector_image{
+    display: none;
+
+}
+
+.custom-file-upload {
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.foto_fondo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+@media screen and (max-width: 800px){
+
+    .foto_estampado_custom_camiseta_hombre{
+        width: 100%;
+        height: 27%;
+        object-fit: contain;
+    }
+
+    .foto_estampado_custom_camiseta_mujer{
+        width: 100%;
+        height: 28%;
+        object-fit: contain;
+    }
+
+    .foto_estampado_custom_sudadera_hombre{
+        width: 100%;
+        height: 25%;
+        object-fit: contain;
+    }
+
+    .foto_estampado_custom_sudadera_mujer{
+        width: 100%;
+        height: 25%;
+        object-fit: contain;
+    }
+
+}
+
+

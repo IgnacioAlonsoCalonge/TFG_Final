@@ -1,0 +1,113 @@
+.contenedor_carrito_compra{
+    display: grid;
+    grid-template-columns: 70% 20%;
+    gap: 5%;
+    position: relative;
+}
+
+#compra{
+    margin-top: 4rem;
+    min-height: 100vh;
+ width: 100%;
+}
+
+.a_113{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.compra_descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 100%;
+}
+
+
+.compra_descripcion h1{
+    font-size: 1.7rem;
+    font-family: "Bebas Neue"; 
+    letter-spacing: 1rem;
+}
+
+.compras_tarjetas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prueba{
+    margin-top: 5rem;
+}
+
+
+.compra_detalles_pago h2{
+    width: max-content;
+    font-family: "Bebas Neue";
+    letter-spacing: 0.2rem;
+}
+
+
+  .a_112{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .a_112 h4, .a_112 h3{
+    font-size: 1.3rem;
+    font-family: "Bebas Neue";
+    letter-spacing: 0.2rem;
+  }
+
+  @media screen and (max-width: 1030px){
+
+    .contenedor_carrito_compra{
+        grid-template-columns: 1fr;
+    }
+
+    #compra{
+        margin-top: 1rem;
+    }
+
+    .prueba{
+        margin-top: 1rem;
+    }
+
+    .a_112{
+        margin-top: 0.5rem;
+    }
+
+    .compra_detalles_pago{
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 575px){
+    
+    .compras_tarjetas{
+        align-items: normal;
+    }
+
+    .compras_tarjetas{
+        align-items: center;
+    }
+
+    .compra_descripcion h1{
+        text-align: center;
+        font-size: 1.6rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .compra_detalles_pago h2{
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
